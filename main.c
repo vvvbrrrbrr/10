@@ -16,7 +16,7 @@ int main()
     {
         stroka[j] = fgetc(f);
         stroka[j+1] = '\0';
-        printf("%s|\n", stroka);
+        //printf("%s|\n", stroka);
         j++;
         if (feof(f))
             break ;
